@@ -1,0 +1,354 @@
+{
+  "slides": [
+    {
+      "id": "scene_1",
+      "totalDuration": 4000,
+      "elements": [
+        {
+          "id": "elem_1",
+          "type": "text",
+          "content": "Here's Johnny!",
+          "style": {
+            "width": "80%",
+            "height": "15%",
+            "backgroundColor": "rgba(0, 0, 0, 0.5)",
+            "color": "#ffffff",
+            "fontSize": "50px",
+            "left": "10%",
+            "bottom": "10%",
+            "zIndex": 2,
+            "fontFamily": "'Hanalei Fill', cursive"
+          },
+          "startTime": 1000,
+          "duration": 2500
+        },
+        {
+          "id": "elem_2",
+          "type": "image",
+          "src": "https://www.acedzn.com/outer_resources/backgrounds/cliff.jpg",
+          "style": {
+            "width": "100%",
+            "height": "100%",
+            "backgroundColor": "transparent",
+            "left": "0",
+            "top": "0",
+            "zIndex": 1
+          },
+          "startTime": 0,
+          "duration": 4000
+        },
+        {
+          "id": "elem_3",
+          "type": "image",
+          "src": "https://www.acedzn.com/outer_resources/images/here_jhonny.gif",
+          "style": {
+              "width": "60%",
+              "backgroundColor": "transparent",
+              "left": "20%",
+              "top": "15%",
+              "zIndex": 3,
+              "boxShadow": "0 0 50px 0 #000",
+              "borderRadius": "5%"
+          },
+          "startTime": 0,
+          "duration": 3000
+        }
+      ]
+    },
+    {
+      "id": "scene_2",
+      "totalDuration": 5500,
+      "elements": [
+        {
+          "id": "elem_11",
+          "type": "text",
+          "content": "Houston,",
+          "style": {
+            "width": "40%",
+            "height": "15%",
+            "textAlign": "left",
+            "backgroundColor": "rgba(28, 29, 3, 0.38)",
+            "color": "rgb(222, 222, 100)",
+            "fontSize": "50px",
+            "left": "0%",
+            "top": "30%",
+            "zIndex": 2,
+            "borderRadius": "0 50% 50% 0",
+            "paddingLeft": "5%",
+            "fontFamily": "'Fjalla One', sans-serif"
+          },
+          "startTime": 1000,
+          "duration": 3500
+        },
+        {
+          "id": "elem_12",
+          "type": "image",
+          "src": "https://www.acedzn.com/outer_resources/images/astro_cat.jpg",
+          "style": {
+            "width": "100%",
+            "height": "100%",
+            "left": "0",
+            "bottom": "0",
+            "zIndex": 1
+          },
+          "startTime": 0,
+          "duration": 5500
+        },
+        {
+          "id": "elem_13",
+          "type": "image",
+          "src": "https://www.acedzn.com/outer_resources/images/acedzn-logo.png",
+          "style": {
+              "width": "10%",
+              "backgroundColor": "transparent",
+              "right": "10%",
+              "top": "10%",
+              "zIndex": 3
+          },
+          "startTime": 0,
+          "duration": 4500
+        },
+        {
+          "id": "elem_14",
+          "type": "text",
+          "content": "we have a problem.",
+          "style": {
+            "width": "70%",
+            "height": "10%",
+            "color": "#ffffff",
+            "fontSize": "40px",
+            "left": "0",
+            "bottom": "50%",
+            "zIndex": 2,
+            "textAlign": "center",
+            "fontFamily": "'Pacifico', cursive"
+          },
+          "startTime": 2000,
+          "duration": 2500
+        }
+      ]
+    },
+    {
+      "id": "scene_3",
+      "totalDuration": 5500,
+      "elements": [
+        {
+          "id": "elem_22",
+          "type": "image",
+          "src": "https://www.acedzn.com/outer_resources/backgrounds/stars.jpg",
+          "style": {
+            "width": "100%",
+            "height": "100%",
+            "backgroundColor": "transparent",
+            "left": "0",
+            "top": "0",
+            "zIndex": 1
+          },
+          "startTime": 0,
+          "duration": 5500
+        },
+        {
+          "id": "elem_23",
+          "type": "video",
+          "src": "https://www.acedzn.com/outer_resources/videos/stella.mp4",
+          "style": {
+              "width": "50%",
+              "backgroundColor": "transparent",
+              "right": "25%",
+              "top": "10%",
+              "zIndex": 2
+          },
+          "startTime": 0,
+          "duration": 4500
+        },
+        {
+          "id": "elem_21",
+          "type": "text",
+          "content": "Stella!",
+          "style": {
+            "width": "80%",
+            "height": "15%",
+            "backgroundColor": "transparent",
+            "color": "#dede64",
+            "fontSize": "50px",
+            "left": "10%",
+            "bottom": "20%",
+            "zIndex": 3,
+            "fontFamily": "'Boogaloo', cursive"
+          },
+          "startTime": 1000,
+          "duration": 3500
+        },
+        {
+          "id": "elem_24",
+          "type": "text",
+          "content": "Hey, Stella!!!",
+          "style": {
+            "width": "auto",
+            "backgroundColor": "#ffffff",
+            "color": "#264273",
+            "fontSize": "40px",
+            "lineHeight": "1",
+            "right": "5%",
+            "bottom": "10%",
+            "zIndex": 3,
+            "padding": "10px 30px",
+            "fontFamily": "'Sigmar One', cursive",
+            "transform": "rotate(-5deg)"
+          },
+          "startTime": 2000,
+          "duration": 2500
+        }
+      ]
+    },
+    {
+      "id": "scene_4",
+      "totalDuration": 8000,
+      "elements": [
+        {
+          "id": "elem_33",
+          "type": "video",
+          "src": "https://www.acedzn.com/outer_resources/videos/its_alive.mp4",
+          "style": {
+              "width": "110%",
+              "height": "110%",
+              "backgroundColor": "transparent",
+              "right": "-5%",
+              "top": "-5%",
+              "zIndex": 1
+          },
+          "startTime": 0,
+          "duration": 8000
+        },
+        {
+          "id": "elem_34",
+          "type": "text",
+          "content": "It's alive!",
+          "style": {
+            "fontFamily": "'Acme', sans-serif",
+            "padding": "10px 20px",
+            "color": "rgb(61, 255, 3)",
+            "fontSize": "45px",
+            "right": "20%",
+            "bottom": "10%",
+            "zIndex": 3,
+            "transform": "rotate(-5deg)"
+          },
+          "startTime": 3000,
+          "duration": 3500
+        },
+        {
+          "id": "elem_35",
+          "type": "text",
+          "content": "It's alive!",
+          "style": {
+            "fontFamily": "'Indie Flower', cursive",
+            "fontWeight": "bold",
+            "textTransform": "uppercase",
+            "width": "30%",
+            "height": "10%",
+            "color": "rgb(233, 251, 17)",
+            "fontSize": "30px",
+            "left": "15%",
+            "top": "10%",
+            "zIndex": 3,
+            "transform": "rotate(5deg)"
+          },
+          "startTime": 3700,
+          "duration": 4000
+        },
+        {
+          "id": "elem_36",
+          "type": "text",
+          "content": "It's alive!",
+          "style": {
+            "fontFamily": "'Fjalla One', sans-serif",
+            "width": "45%",
+            "height": "auto",
+            "color": "#fff",
+            "fontSize": "110px",
+            "right": "15%",
+            "top": "5%",
+            "zIndex": 3,
+            "transform": "rotate(-35deg)",
+            "fontWeight": "bold"
+          },
+          "startTime": 4000,
+          "duration": 4000
+        }
+      ]
+    },
+    {
+      "id": "scene_5",
+      "totalDuration": 5500,
+      "elements": [
+        {
+          "id": "elem_41",
+          "type": "text",
+          "content": "find more on:",
+          "style": {
+            "width": "30%",
+            "textAlign": "left",
+            "color": "rgb(252, 223, 100)",
+            "fontSize": "30px",
+            "left": "21%",
+            "bottom": "15%",
+            "zIndex": 2,
+            "padding": "10px 0",
+            "fontFamily": "'Fjalla One', sans-serif",
+            "textShadow": "0 3px 3px #585a80"
+          },
+          "startTime": 1000,
+          "duration": 4500
+        },
+        {
+          "id": "elem_42",
+          "type": "image",
+          "src": "https://www.acedzn.com/outer_resources/backgrounds/baloons.jpg",
+          "style": {
+            "width": "100%",
+            "height": "100%",
+            "left": "0",
+            "bottom": "0",
+            "zIndex": 1
+          },
+          "startTime": 0,
+          "duration": 5500
+        },
+        {
+          "id": "elem_43",
+          "type": "image",
+          "src": "https://www.acedzn.com/outer_resources/images/chameleon.png",
+          "style": {
+              "width": "40%",
+              "backgroundColor": "transparent",
+              "right": "5%",
+              "bottom": "0%",
+              "zIndex": 3
+          },
+          "startTime": 1500,
+          "duration": 4000
+        },
+        {
+          "id": "elem_44",
+          "type": "text",
+          "content": "www.acedzn.com",
+          "style": {
+            "width": "60%",
+            "height": "20%",
+            "color": "#ffffff",
+            "fontSize": "55px",
+            "left": "20%",
+            "bottom": "5%",
+            "zIndex": 2,
+            "textAlign": "center",
+            "fontFamily": "'Pacifico', cursive",
+            "textShadow": "0 6px 3px #bf5d5b"
+          },
+          "startTime": 1300,
+          "duration": 4200
+        }
+      ]
+    }
+  ]
+}

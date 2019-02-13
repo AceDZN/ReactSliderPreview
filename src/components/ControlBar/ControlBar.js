@@ -1,5 +1,7 @@
 import React from 'react';
-import SeekBar from './SeekBar';
+import SeekBar from '../SeekBar/SeekBar';
+import './ControlBar.css';
+
 const control_bar = (props)=>{
   let playPauseBtn = {};
   if(!!props.is_playing){

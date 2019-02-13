@@ -1,0 +1,13 @@
+.ControlBar{display:flex;}
+.ControlBar .Btn{
+  width: 50px;
+  box-sizing: border-box;
+  padding: 5px;
+  cursor: pointer;
+  opacity: .5;
+}
+.ControlBar .Btn:hover{opacity: 1;}
+.ControlBar .Btn img{
+  display: block;
+  max-width:100%;
+}

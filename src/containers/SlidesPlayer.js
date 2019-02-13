@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import axios from 'axios';
 
-import ControlBar from '../components/ControlBar';
-import SlidePreview from './SlidePreview';
+import ControlBar from '../components/ControlBar/ControlBar';
+import SlidePreview from '../components/SlidePreview/SlidePreview';
 
 class SlidesPlayer extends Component {
   state = {
@@ -13,15 +13,16 @@ class SlidesPlayer extends Component {
     player_total_duration: 0
   }
 
-  componentDidMount(){
-    axios.get('../assets/slides.json').then((res)=>{
+  getPresentationSlides() {
+    let current_presentation_id = this.props.presentation || 'slides_1';
+
+    axios.get(`../assets/slides/${current_presentation_id}.json`).then((res)=>{
       const playerTotalDuration = res.data.slides.reduce((current_sum, slide) => current_sum + slide.totalDuration, 0);
       let last_scene_ts = 0;
       const slides = res.data.slides.map((slide)=>{
         let c_slide = {...slide };
         c_slide.startTime = last_scene_ts;
         last_scene_ts = last_scene_ts + slide.totalDuration;
-
         return c_slide;
       });
       this.setState({
@@ -38,16 +39,23 @@ class SlidesPlayer extends Component {
     });
   }
 
+  componentDidMount() {
+    this.getPresentationSlides();
+  }
+  componentDidUpdate(prevProps){
+    if(this.props.presentation !== prevProps.presentation){
+      this.getPresentationSlides();
+    }
+  }
+
   startPreviewTimer() {
     this.preview_timer = setInterval(()=>{
       if(!!this.state.is_playing){
         const current_slide = this.state.slides[this.state.currentSlideIdx];
         this.setState((prevState)=>{
           const tick = Number(prevState.preview_tick)+100;
-          if(tick < (current_slide.totalDuration + prevState.last_scene_ts)){
-            return {
-              preview_tick: tick
-            }
+          if(tick < (current_slide.startTime + current_slide.totalDuration)){
+            return { preview_tick: tick }
           } else {
             const next_index = prevState.currentSlideIdx + 1;
             const next_slide = (next_index < this.state.slides.length ? next_index : 0);
@@ -103,7 +111,7 @@ class SlidesPlayer extends Component {
 
     return(
       <div className="SlidesPlayer">
-        <SlidePreview slide={current_slide} is_playing={this.state.is_playing} />
+        <SlidePreview slide={current_slide} currentTime={this.state.preview_tick} is_playing={this.state.is_playing} />
         <ControlBar
           play={this.playSlides.bind(this)} seek={this.seekTo.bind(this)} pause={this.pauseSlides.bind(this)}
           is_playing={this.state.is_playing}

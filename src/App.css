@@ -13,19 +13,8 @@
   color: white;
 }
 
-.SlidesPlayer{
 
-}
-
-.SlidesPlayer .SlidePreview{
-  width: 640px;
-  height: 440px;
-  position: relative;
-  display: block;
-
-  overflow: hidden;
-}
-.SlidesPlayer .SlidePreview .MediaElement{
+.MediaElement{
   position: absolute;
   top: auto;
   left: auto;
@@ -34,64 +23,4 @@
   transition: all .25s;
   box-sizing: border-box;
 }
-.ControlBar{display:flex;}
-.ControlBar .Btn{
-  width: 50px;
-  box-sizing: border-box;
-  padding: 5px;
-  cursor: pointer;
-  opacity: .5;
-}
-.ControlBar .Btn:hover{opacity: 1;}
-.ControlBar .Btn img{
-  display: block;
-  max-width:100%;
-}
-.SeekBar{
-  width: 100%;
-  padding: 10px;
-  box-sizing: border-box;
-}
-.ProgressWrap{
-  width: 100%;
-  height: 100%;
-  background: rgba(255, 255, 255, 0.25);
-  position: relative;
-}
-.ProgressWrap .ProgressRange{
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  -webkit-appearance: none;
-  background: transparent;
-  -webkit-appearance: none;  /* Override default CSS styles */
-  appearance: none;
-  outline: none; /* Remove outline */
-  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
-  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
-  transition: opacity .2s;
-  cursor: pointer;
-}
-.ProgressWrap .ProgressRange::-webkit-slider-thumb {
-  -webkit-appearance: none; /* Override default look */
-  appearance: none;
-  display:block;
-  width: 5px; /* Set a specific slider handle width */
-  height: 100%; /* Slider handle height */
-  cursor: pointer; /* Cursor on hover */
-}
-.ProgressWrap .ProgressRange::-moz-range-thumb {
-  display:block;
-  width: 5px; /* Set a specific slider handle width */
-  height: 100%; /* Slider handle height */
-  cursor: pointer; /* Cursor on hover */
-}
-.ProgressLine{
-  min-width: 0%;
-  max-width: 100%;
-  height: 100%;
-  display:block;
-  background-color: #92baef;
-}
+

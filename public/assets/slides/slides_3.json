@@ -1,0 +1,601 @@
+{
+  "slides": [
+    {
+      "id": "scene_1",
+      "totalDuration": 5500,
+      "elements": [
+        {
+          "id": "scene_1_elem_0",
+          "type": "text",
+          "style": {
+            "width": "100%",
+            "height": "100%",
+            "backgroundColor": "#000",
+            "left": "0",
+            "top": "0",
+            "zIndex": 0,
+            "transform": "rotate(0deg)"
+          },
+          "startTime": 0,
+          "duration": 5000
+        },
+        {
+          "id": "scene_1_elem_1g1",
+          "type": "text",
+          "content": "Waka",
+          "style": {
+            "zIndex": 2, "width": "94%", "height": "100%","left": "3%", "top": "0%",
+            "color": "#ffffff", "fontSize": "49px", "textAlign": "left","padding": "10px",
+            "fontFamily": "'Anton', sans-serif"
+          },
+          "startTime": 400,
+          "duration": 200
+        },
+        {
+          "id": "scene_1_elem_1g2",
+          "type": "text",
+          "content": "Waka Waka",
+          "style": {
+            "zIndex": 2, "width": "94%", "height": "100%","left": "3%", "top": "0%",
+            "color": "#ffffff", "fontSize": "49px", "textAlign": "left","padding": "10px",
+            "fontFamily": "'Anton', sans-serif"
+          },
+          "startTime": 550,
+          "duration": 200
+        },
+        {
+          "id": "scene_1_elem_1g3",
+          "type": "text",
+          "content": "Waka Waka Waka",
+          "style": {
+            "zIndex": 2, "width": "94%", "height": "100%","left": "3%", "top": "0%",
+            "color": "#ffffff", "fontSize": "49px", "textAlign": "left","padding": "10px",
+            "fontFamily": "'Anton', sans-serif"
+          },
+          "startTime": 700,
+          "duration": 200
+        },
+        {
+          "id": "scene_1_elem_1g4",
+          "type": "text",
+          "content": "Waka Waka Waka Waka",
+          "style": {
+            "zIndex": 2, "width": "94%", "height": "100%","left": "3%", "top": "0%",
+            "color": "#ffffff", "fontSize": "49px", "textAlign": "left","padding": "10px",
+            "fontFamily": "'Anton', sans-serif"
+          },
+          "startTime": 850,
+          "duration": 200
+        },
+        {
+          "id": "scene_1_elem_1g5",
+          "type": "text",
+          "content": "Waka Waka Waka Waka Waka",
+          "style": {
+            "zIndex": 2, "width": "94%", "height": "100%","left": "3%", "top": "0%",
+            "color": "#ffffff", "fontSize": "49px", "textAlign": "left","padding": "10px",
+            "fontFamily": "'Anton', sans-serif"
+          },
+          "startTime": 1000,
+          "duration": 200
+        },
+        {
+          "id": "scene_1_elem_1g6",
+          "type": "text",
+          "content": "Waka Waka Waka Waka Waka",
+          "style": {
+            "zIndex": 2, "width": "94%", "height": "100%","left": "3%", "top": "0%",
+            "color": "#ffffff", "fontSize": "49px", "textAlign": "left","padding": "10px",
+            "fontFamily": "'Anton', sans-serif"
+          },
+          "startTime": 1150,
+          "duration": 200
+        },
+        {
+          "id": "scene_1_elem_1g7",
+          "type": "text",
+          "content": "Waka Waka Waka Waka Waka",
+          "style": {
+            "zIndex": 2, "width": "94%", "height": "100%","left": "3%", "top": "0%",
+            "color": "#ffffff", "fontSize": "49px", "textAlign": "left","padding": "10px",
+            "fontFamily": "'Anton', sans-serif"
+          },
+          "startTime": 1300,
+          "duration": 200
+        },
+        {
+          "id": "scene_1_elem_1g8",
+          "type": "text",
+          "content": "Waka Waka Waka Waka Waka Waka",
+          "style": {
+            "zIndex": 2, "width": "94%", "height": "100%","left": "3%", "top": "0%",
+            "color": "#ffffff", "fontSize": "49px", "textAlign": "left","padding": "10px",
+            "fontFamily": "'Anton', sans-serif"
+          },
+          "startTime": 1450,
+          "duration": 200
+        },
+        {
+          "id": "scene_1_elem_1g9",
+          "type": "text",
+          "content": "Waka Waka Waka Waka Waka Waka Waka",
+          "style": {
+            "zIndex": 2, "width": "94%", "height": "100%","left": "3%", "top": "0%",
+            "color": "#ffffff", "fontSize": "49px", "textAlign": "left","padding": "10px",
+            "fontFamily": "'Anton', sans-serif"
+          },
+          "startTime": 1600,
+          "duration": 200
+        },
+        {
+          "id": "scene_1_elem_1g10",
+          "type": "text",
+          "content": "Waka Waka Waka Waka Waka Waka Waka Waka",
+          "style": {
+            "zIndex": 2, "width": "94%", "height": "100%","left": "3%", "top": "0%",
+            "color": "#ffffff", "fontSize": "49px", "textAlign": "left","padding": "10px",
+            "fontFamily": "'Anton', sans-serif"
+          },
+          "startTime": 1750,
+          "duration": 200
+        },
+        {
+          "id": "scene_1_elem_1g11",
+          "type": "text",
+          "content": "Waka Waka Waka Waka Waka Waka Waka Waka Waka",
+          "style": {
+            "zIndex": 2, "width": "94%", "height": "100%","left": "3%", "top": "0%",
+            "color": "#ffffff", "fontSize": "49px", "textAlign": "left","padding": "10px",
+            "fontFamily": "'Anton', sans-serif"
+          },
+          "startTime": 1900,
+          "duration": 200
+        },
+        {
+          "id": "scene_1_elem_1g12",
+          "type": "text",
+          "content": "Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka",
+          "style": {
+            "zIndex": 2, "width": "94%", "height": "100%","left": "3%", "top": "0%",
+            "color": "#ffffff", "fontSize": "49px", "textAlign": "left","padding": "10px",
+            "fontFamily": "'Anton', sans-serif"
+          },
+          "startTime": 2050,
+          "duration": 200
+        },
+        {
+          "id": "scene_1_elem_1g13",
+          "type": "text",
+          "content": "Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka",
+          "style": {
+            "zIndex": 2, "width": "94%", "height": "100%","left": "3%", "top": "0%",
+            "color": "#ffffff", "fontSize": "49px", "textAlign": "left","padding": "10px",
+            "fontFamily": "'Anton', sans-serif"
+          },
+          "startTime": 2200,
+          "duration": 200
+        },
+        {
+          "id": "scene_1_elem_1g14",
+          "type": "text",
+          "content": "Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka",
+          "style": {
+            "zIndex": 2, "width": "94%", "height": "100%","left": "3%", "top": "0%",
+            "color": "#ffffff", "fontSize": "49px", "textAlign": "left","padding": "10px",
+            "fontFamily": "'Anton', sans-serif"
+          },
+          "startTime": 2350,
+          "duration": 200
+        },
+        {
+          "id": "scene_1_elem_1g15",
+          "type": "text",
+          "content": "Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka",
+          "style": {
+            "zIndex": 2, "width": "94%", "height": "100%","left": "3%", "top": "0%",
+            "color": "#ffffff", "fontSize": "49px", "textAlign": "left","padding": "10px",
+            "fontFamily": "'Anton', sans-serif"
+          },
+          "startTime": 2500,
+          "duration": 200
+        },
+        {
+          "id": "scene_1_elem_1g16",
+          "type": "text",
+          "content": "Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka",
+          "style": {
+            "zIndex": 2, "width": "94%", "height": "100%","left": "3%", "top": "0%",
+            "color": "#ffffff", "fontSize": "49px", "textAlign": "left","padding": "10px",
+            "fontFamily": "'Anton', sans-serif"
+          },
+          "startTime": 2750,
+          "duration": 200
+        },
+        {
+          "id": "scene_1_elem_1g17",
+          "type": "text",
+          "content": "Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka",
+          "style": {
+            "zIndex": 2, "width": "94%", "height": "100%","left": "3%", "top": "0%",
+            "color": "#ffffff", "fontSize": "49px", "textAlign": "left","padding": "10px",
+            "fontFamily": "'Anton', sans-serif"
+          },
+          "startTime": 2900,
+          "duration": 200
+        },
+        {
+          "id": "scene_1_elem_1g18",
+          "type": "text",
+          "content": "Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka",
+          "style": {
+            "zIndex": 2, "width": "94%", "height": "100%","left": "3%", "top": "0%",
+            "color": "#ffffff", "fontSize": "49px", "textAlign": "left","padding": "10px",
+            "fontFamily": "'Anton', sans-serif"
+          },
+          "startTime": 3050,
+          "duration": 200
+        },
+        {
+          "id": "scene_1_elem_1g19",
+          "type": "text",
+          "content": "Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka",
+          "style": {
+            "zIndex": 2, "width": "94%", "height": "100%","left": "3%", "top": "0%",
+            "color": "#ffffff", "fontSize": "49px", "textAlign": "left","padding": "10px",
+            "fontFamily": "'Anton', sans-serif"
+          },
+          "startTime": 3200,
+          "duration": 200
+        },
+        {
+          "id": "scene_1_elem_1g20",
+          "type": "text",
+          "content": "Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka",
+          "style": {
+            "zIndex": 2, "width": "94%", "height": "100%","left": "3%", "top": "0%",
+            "color": "#ffffff", "fontSize": "49px", "textAlign": "left","padding": "10px",
+            "fontFamily": "'Anton', sans-serif"
+          },
+          "startTime": 3350,
+          "duration": 200
+        },
+        {
+          "id": "scene_1_elem_1g21",
+          "type": "text",
+          "content": "Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka",
+          "style": {
+            "zIndex": 2, "width": "94%", "height": "100%","left": "3%", "top": "0%",
+            "color": "#ffffff", "fontSize": "49px", "textAlign": "left","padding": "10px",
+            "fontFamily": "'Anton', sans-serif"
+          },
+          "startTime": 3500,
+          "duration": 200
+        },
+        {
+          "id": "scene_1_elem_1g10",
+          "type": "text",
+          "content": "Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka",
+          "style": {
+            "zIndex": 2, "width": "94%", "height": "100%","left": "3%", "top": "0%",
+            "color": "#ffffff", "fontSize": "49px", "textAlign": "left","padding": "10px",
+            "fontFamily": "'Anton', sans-serif"
+          },
+          "startTime": 3650,
+          "duration": 200
+        },
+        {
+          "id": "scene_1_elem_1g11",
+          "type": "text",
+          "content": "Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka",
+          "style": {
+            "zIndex": 2, "width": "94%", "height": "100%","left": "3%", "top": "0%",
+            "color": "#ffffff", "fontSize": "49px", "textAlign": "left","padding": "10px",
+            "fontFamily": "'Anton', sans-serif"
+          },
+          "startTime": 3800,
+          "duration": 200
+        },
+        {
+          "id": "scene_1_elem_1g12",
+          "type": "text",
+          "content": "Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka",
+          "style": {
+            "zIndex": 2, "width": "94%", "height": "100%","left": "3%", "top": "0%",
+            "color": "#ffffff", "fontSize": "49px", "textAlign": "left","padding": "10px",
+            "fontFamily": "'Anton', sans-serif"
+          },
+          "startTime": 3950,
+          "duration": 1500
+        },
+        {
+          "id": "scene_1_elem_22g",
+          "type": "image",
+          "src": "https://www.acedzn.com/outer_resources/images/memes/pacman.png",
+          "style": {
+              "width": "50%",
+              "backgroundColor": "transparent",
+              "right": "5%",
+              "bottom": "0%",
+              "zIndex": 6
+          },
+          "startTime": 3700,
+          "duration": 1800
+        },
+        {
+          "id": "scene_1_elem_23g",
+          "type": "image",
+          "src": "https://www.acedzn.com/outer_resources/images/memes/pacman.gif",
+          "style": {
+              "width": "100%",
+              "backgroundColor": "transparent",
+              "left": "0%",
+              "bottom": "-15%",
+              "zIndex": 1
+          },
+          "startTime": 3950,
+          "duration": 3400
+        }
+      ]
+    },
+
+
+
+
+    {
+      "id": "scene_2",
+      "totalDuration": 5500,
+      "elements": [
+        {
+          "id": "elem_12",
+          "type": "image",
+          "src": "https://www.acedzn.com/outer_resources/backgrounds/pubg.jpg",
+          "style": {
+            "width": "100%",
+            "height": "100%",
+            "left": "0",
+            "bottom": "0",
+            "zIndex": 1
+          },
+          "startTime": 0,
+          "duration": 5500
+        },
+        {
+          "id": "elem_13",
+          "type": "image",
+          "src": "https://www.acedzn.com/outer_resources/images/memes/forever_alone.png",
+          "style": {
+              "width": "30%",
+              "backgroundColor": "transparent",
+              "right": "35%",
+              "top": "24%",
+              "zIndex": 3
+          },
+          "startTime": 1500,
+          "duration": 4000
+        },
+        {
+          "id": "elem_11",
+          "type": "text",
+          "content": "Make dinner for two ",
+          "style": {
+            "width": "100%",
+            "height": "15%",
+            "textAlign": "center",
+            "color": "#ffffff",
+            "fontSize": "50px",
+            "left": "0%",
+            "top": "5%",
+            "zIndex": 2,
+            "borderRadius": "0 50% 50% 0",
+            "fontFamily": "'Anton', sans-serif",
+            "textShadow": "-2px 0 1px #000, 2px 0 2px #000, 0 2px 1px #000, 0 -2px 1px #000, 0 0 2px #000"
+          },
+          "startTime": 1000,
+          "duration": 3500
+        },
+        {
+          "id": "elem_14",
+          "type": "text",
+          "content": "Don't have to cook tommorow",
+          "style": {
+            "width": "100%",
+            "height": "10%",
+            "color": "rgb(222, 222, 100)",
+            "fontSize": "40px",
+            "left": "0",
+            "bottom": "10%",
+            "zIndex": 2,
+            "textAlign": "center",
+            "fontFamily": "'Anton', sans-serif",
+            "textShadow": "-2px 0 1px #000, 2px 0 2px #000, 0 2px 1px #000, 0 -2px 1px #000, 0 0 2px #000"
+          },
+          "startTime": 2000,
+          "duration": 2500
+        }
+      ]
+    },
+    {
+      "id": "scene_4",
+      "totalDuration": 6000,
+      "elements": [
+        {
+          "id": "scne_4_elem_33",
+          "type": "video",
+          "src": "https://www.acedzn.com/outer_resources/videos/nyan_cat.mp4",
+          "style": {
+              "width": "150%",
+              "height": "150%",
+              "backgroundColor": "transparent",
+              "right": "-25%",
+              "top": "-25%",
+              "zIndex": 1
+          },
+          "startTime": 0,
+          "duration": 6000
+        },
+        {
+          "id": "scne_4_elem_34",
+          "type": "image",
+          "src": "https://www.acedzn.com/outer_resources/images/memes/nyan_cat_1.gif",
+          "style": {
+              "width": "30%",
+              "backgroundColor": "transparent",
+              "left": "0%",
+              "bottom": "0%",
+              "zIndex": 3
+          },
+          "startTime": 1500,
+          "duration": 3000
+        },
+        {
+          "id": "scne_4_elem_35",
+          "type": "image",
+          "src": "https://www.acedzn.com/outer_resources/images/memes/nyan_cat_2.gif",
+          "style": {
+              "width": "10%",
+              "backgroundColor": "transparent",
+              "left": "20%",
+              "top": "10%",
+              "zIndex": 3
+          },
+          "startTime": 2000,
+          "duration": 3000
+        },
+        {
+          "id": "scne_4_elem_36",
+          "type": "image",
+          "src": "https://www.acedzn.com/outer_resources/images/memes/nyan_cat_3.gif",
+          "style": {
+              "width": "40%",
+              "backgroundColor": "transparent",
+              "right": "10%",
+              "bottom": "-17%",
+              "zIndex": 3
+          },
+          "startTime": 2500,
+          "duration": 2500
+        },
+        {
+          "id": "scne_4_elem_37",
+          "type": "image",
+          "src": "https://www.acedzn.com/outer_resources/images/memes/nyan_cat_4.gif",
+          "style": {
+              "width": "25%",
+              "backgroundColor": "transparent",
+              "right": "4%",
+              "top": "10%",
+              "zIndex": 3
+          },
+          "startTime": 3000,
+          "duration": 2000
+        },
+        {
+          "id": "scne_4_elem_38",
+          "type": "image",
+          "src": "https://www.acedzn.com/outer_resources/images/memes/nyan_cat_5.gif",
+          "style": {
+              "width": "35%",
+              "backgroundColor": "transparent",
+              "right": "-16%",
+              "top": "40%",
+              "zIndex": 3
+          },
+          "startTime": 3500,
+          "duration": 2000
+        },
+        {
+          "id": "scne_4_elem_39",
+          "type": "text",
+          "content": "Run Nyan, Run",
+          "style": {
+            "width": "80%",
+            "height": "20%",
+            "color": "#f7b2f4",
+            "fontSize": "75px",
+            "left": "5%",
+            "top": "10%",
+            "zIndex": 5,
+            "textAlign": "center",
+            "fontFamily": "'Boogaloo', cursive",
+            "transform": "rotate(-5deg)",
+            "textShadow": "-1px 0px 2px #000, 1px 0px 2px #000, 0px 1px 2px #000, 0 -2px 2px #000, -5px 2px #f82c18, -10px 4px #f8a915, -15px 6px #f1f000, -20px 8px #59ef05, -25px 10px #39a7f2, -30px 12px #7b51f9"
+          },
+          "startTime": 2500,
+          "duration": 3000
+        }
+      ]
+    },
+    {
+      "id": "scene_5",
+      "totalDuration": 5500,
+      "elements": [
+        {
+          "id": "elem_41",
+          "type": "text",
+          "content": "find more on:",
+          "style": {
+            "width": "30%",
+            "textAlign": "left",
+            "color": "rgb(252, 223, 100)",
+            "fontSize": "30px",
+            "left": "21%",
+            "bottom": "15%",
+            "zIndex": 2,
+            "padding": "10px 0",
+            "fontFamily": "'Fjalla One', sans-serif",
+            "textShadow": "0 3px 3px #585a80"
+          },
+          "startTime": 1000,
+          "duration": 4500
+        },
+        {
+          "id": "elem_42",
+          "type": "image",
+          "src": "https://www.acedzn.com/outer_resources/backgrounds/baloons.jpg",
+          "style": {
+            "width": "100%",
+            "height": "100%",
+            "left": "0",
+            "bottom": "0",
+            "zIndex": 1
+          },
+          "startTime": 0,
+          "duration": 5500
+        },
+        {
+          "id": "elem_43",
+          "type": "image",
+          "src": "https://www.acedzn.com/outer_resources/images/chameleon.png",
+          "style": {
+              "width": "40%",
+              "backgroundColor": "transparent",
+              "right": "5%",
+              "bottom": "0%",
+              "zIndex": 3
+          },
+          "startTime": 1500,
+          "duration": 4000
+        },
+        {
+          "id": "elem_44",
+          "type": "text",
+          "content": "www.acedzn.com",
+          "style": {
+            "width": "60%",
+            "height": "20%",
+            "color": "#ffffff",
+            "fontSize": "55px",
+            "left": "20%",
+            "bottom": "5%",
+            "zIndex": 2,
+            "textAlign": "center",
+            "fontFamily": "'Pacifico', cursive",
+            "textShadow": "0 6px 3px #bf5d5b"
+          },
+          "startTime": 1300,
+          "duration": 4200
+        }
+      ]
+    }
+  ]
+}

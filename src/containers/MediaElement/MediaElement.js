@@ -1,17 +1,20 @@
 import React, {Component} from 'react';
-
+import './MediaElement.css';
 class MediaElement extends Component {
   state = {
-    element_shown: false,
+    element_shown: null,
   }
 
   componentDidMount(){
-    const show_element = this.shouldElementBeShown(this.props.currentTime);
+    let show_element = this.shouldElementBeShown(this.props.currentTime);
     show_element ? this.showElement() : this.hideElement();
   }
 
   shouldComponentUpdate(nextProps, nextState){
-    const visibility_changed = (this.state.element_shown !== this.shouldElementBeShown(nextProps.currentTime));
+    let visibility_changed = (this.state.element_shown !== this.shouldElementBeShown(nextProps.currentTime));
+    if(!this.state.element_shown && this.shouldElementBeShown(nextProps.currentTime)){
+      visibility_changed = true;
+    }
     const play_changed = (this.props.is_playing !== nextProps.is_playing );
     return visibility_changed || play_changed;
   }
@@ -38,6 +41,7 @@ class MediaElement extends Component {
     this.setState({ element_shown: true })
     if(this.props.type === "video"){
       const video_item = this.refs[`video_item_${this.props.id}`];
+      video_item.volume = .2;
       this.props.is_playing ? video_item.play() : video_item.pause();
     }
   }
@@ -54,13 +58,17 @@ class MediaElement extends Component {
     let mediaElement = null;
     if(!!this.props.id){
       let style = {...this.props.style};
+      const windowWidth = window.innerWidth;
+      if(windowWidth < 650 && style.fontSize){
+        style.fontSize = (Number(style.fontSize.replace('px','')) / 1.5);
+      }
 
       if(this.state.element_shown){ style.opacity = "1" } else { style.opacity = "0" }
 
       if(this.props.type === "image"){
         mediaElement = <img key={this.props.id} alt="" className="MediaElement Image" src={this.props.src} style={style} />
       } else if(this.props.type === "video") {
-        mediaElement = <video ref={`video_item_${this.props.id}`} key={this.props.id} className={`MediaElement Video ${this.props.id}`} src={this.props.src} style={style} autoPlay={true} type="video/mp4" />
+        mediaElement = <video volume="0.1" ref={`video_item_${this.props.id}`} key={this.props.id} className={`MediaElement Video ${this.props.id}`} src={this.props.src} style={style} autoPlay={true} type="video/mp4" />
       } else {
         mediaElement = <div key={this.props.id} className="MediaElement Text" style={style}>{this.props.content}</div>
       }

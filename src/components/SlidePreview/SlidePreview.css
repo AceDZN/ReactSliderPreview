@@ -1,8 +1,11 @@
-.SlidePreview{
-  width: 640px;
-  height: 440px;
-  max-width: 100%;
+.SlidePreviewContainer{
   position: relative;
-  display: block;
-  overflow: hidden;
+  width: 640px;
+  max-width: 100%;
+  padding-top: 68.75%; /* 640*440 Aspect Ratio */
+}
+.SlidePreview{
+  position:absolute; top:0; left: 0;
+  width:100%; height:100%;
+  overflow:hidden;
 }

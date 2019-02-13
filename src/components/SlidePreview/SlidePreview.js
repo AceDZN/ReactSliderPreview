@@ -1,5 +1,5 @@
 import React from 'react';
-import MediaElement from '../../containers/MediaElement';
+import MediaElement from '../../containers/MediaElement/MediaElement';
 import './SlidePreview.css';
 
 const slides_preview = (props) => {
@@ -11,8 +11,10 @@ const slides_preview = (props) => {
     });
   }
   return(
-    <div className="SlidePreview">
-      {mediaElements}
+    <div className="SlidePreviewContainer">
+      <div className="SlidePreview">
+        {mediaElements}
+      </div>
     </div>
   )
 

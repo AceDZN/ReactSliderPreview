@@ -1,8 +1,9 @@
 import React, {Component} from 'react';
 import axios from 'axios';
+import './SlidesPlayer.css';
 
-import ControlBar from '../components/ControlBar/ControlBar';
-import SlidePreview from '../components/SlidePreview/SlidePreview';
+import ControlBar from '../../components/ControlBar/ControlBar';
+import SlidePreview from '../../components/SlidePreview/SlidePreview';
 
 class SlidesPlayer extends Component {
   state = {
@@ -15,8 +16,9 @@ class SlidesPlayer extends Component {
 
   getPresentationSlides() {
     let current_presentation_id = this.props.presentation || 'slides_1';
-
+    this.setState({is_playing: false});
     axios.get(`../assets/slides/${current_presentation_id}.json`).then((res)=>{
+      this.stopPreviewTimer();
       const playerTotalDuration = res.data.slides.reduce((current_sum, slide) => current_sum + slide.totalDuration, 0);
       let last_scene_ts = 0;
       const slides = res.data.slides.map((slide)=>{

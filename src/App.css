@@ -13,14 +13,3 @@
   color: white;
 }
 
-
-.MediaElement{
-  position: absolute;
-  top: auto;
-  left: auto;
-  right: auto;
-  bottom: auto;
-  transition: all .25s;
-  box-sizing: border-box;
-}
-

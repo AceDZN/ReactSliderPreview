@@ -1,6 +1,7 @@
 .SlidePreview{
   width: 640px;
   height: 440px;
+  max-width: 100%;
   position: relative;
   display: block;
   overflow: hidden;

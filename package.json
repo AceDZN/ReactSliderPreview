@@ -2,7 +2,7 @@
   "name": "slides_player",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "https://www.acedn.com/ex/react_slider_preview",
+  "homepage": "https://www.acedn.com/ex/react_slider_preview",
   "dependencies": {
     "axios": "^0.18.0",
     "react": "^16.8.1",
